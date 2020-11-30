@@ -1,3 +1,4 @@
+/*Some styles for specific pages were reused in others*/
 /* Master Styles */
 body{
 	font-family: "Lato", sans-serif;
@@ -117,6 +118,9 @@ body{
 }
 
 /* About Page Styles */
+.page-title {
+	padding-left:30px;
+}
 .two-column-wrapper{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -130,53 +134,48 @@ body{
 .profile-content-wrapper h1{
 	color: #000000;
 }
+
 /*Alt Page styles */
 .one-column-wrapper{
 	display: grid;
 	grid-template-columns: 1fr;
 }
-.profile-content-wrapper-althead{
-	padding-top: 30px;
-	padding-right:30px;
-	padding-left:30px;
-	padding-bottom: 10px;
-}
+
 .profile-content-wrapper-altbod{
 	padding: 10px;
 	font-size: 1.3em;
 }
-/* Live Chat Styles */
-  .message-container {
-      padding: 0;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-    }
 
-    #message-container {
-      width: 80%;
-      max-width: 1500px;
-    }
+/*Science Page styles */
+.page-title {
+	padding-left:30px;
+}
+.science-wrapper{
+	padding:3%;
+}
+.science-two-column-wrapper{
+	display: grid;
+	width:97%;
+	vertical-align:center;
+	grid-template-columns: 30% auto;
+	background-color: rgba(0,0,0,0.1);
+	border:1px rgba(0,0,0,0.1);
+	border-radius:25px;
+}
+.science-image-wrapper img{
+	width: 95%;
+	height:auto;
+	padding:30px;
+}
+.science-content-wrapper{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-top:8px;
+	line-height:1.6;
+}
+.science-content-wrapper h1{
+	color: #000000;
+}
 
-    #message-container div {
-      background-color: white;
-      padding: 5px;
-    }
 
-    #message-container div:nth-child(2n) {
-      background-color: #FFF;
-    }
-
-    #send-container {
-      position: fixed;
-      padding-bottom: 30px;
-      bottom: 0;
-      background-color: white;
-      max-width: 1800px;
-      width: 80%;
-      display: flex;
-    }
-
-    #message-input {
-      flex-grow: 1;
-    }
