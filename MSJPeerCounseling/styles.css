@@ -124,9 +124,17 @@ body{
 .two-column-wrapper{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	padding:30px;
 }
 .profile-image-wrapper img{
 	width: 100%;
+}
+.about-image-wrapper img{
+	width:100%;
+}
+.about-content-wrapper{
+	padding:30px;
+	font-family: "Optima", Segoe !important;
 }
 .profile-content-wrapper{
 	padding: 30px;
@@ -145,7 +153,10 @@ body{
 	padding: 10px;
 	font-size: 1.3em;
 }
-
+/*Positive page styles*/
+.collage{
+	width:100%;
+}
 /*Science Page styles */
 .page-title {
 	padding-left:30px;
