@@ -1,7 +1,5 @@
 var codeslist = [
-    'V6WEAQ62','NLBVKD6Y','6UXL4LNU','ESPT3C7Q','H5QK9KKQ','HM6BPY3G','7SSQTUJ2','9RDWJUJ2','VVMQBALS','3FAMTAYG',
-    'GWF2JQFW','UVMBNFG4','J6ZN36NZ','97HW42SR','88Z3G7S9','2ZD9R33Z','V36XX3XW','9N4EHR3J','BFHPTBME','2DLERYMN',
-    '2EWPE6SM','NR66KTYS','PWDQX9RK','ZHHT5L7D','YU4VWV92','X3K3U82S','X8CZG3A7','XD2ZGD5Y','LUHV7KM8','M6GSGR42',
+    //left empty for privacy
 ];
 function setFormMessage(formElement, type, message) {
     const messageElement = formElement.querySelector(".form__message");
