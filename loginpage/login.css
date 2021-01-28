@@ -142,7 +142,7 @@ body {
     text-align:center;
     padding-left:5px;
     background: var(--color-primary);
-    float:right;
+    float: right;
 }
 
 .form__button_gen:hover {
